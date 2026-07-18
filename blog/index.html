@@ -6,50 +6,114 @@
     <title>Blog | AI for Danske Virksomheder | Voxa</title>
     <meta name="description" content="Lær om AI, automation og digital transformation for danske virksomheder. Praktiske guides og cases fra Voxa.">
     <link rel="canonical" href="https://voxa.dk/blog/">
-    <link rel="stylesheet" href="../styles.css">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://voxa.dk/blog/">
+    <meta property="og:title" content="Voxa Blog | AI for Danske Virksomheder">
+    <meta property="og:description" content="Praktisk viden om AI, automation og digital transformation for danske virksomheder.">
+    <meta property="og:locale" content="da_DK">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../blog-styles.css">
 </head>
-<body>
-    <main class="container">
-        <header>
+<body class="blog-page">
+    <!-- Navigation -->
+    <nav class="blog-nav">
+        <div class="blog-nav-container">
+            <div class="blog-nav-left">
+                <a href="/" class="blog-nav-logo">⚡ Voxa</a>
+                <div class="blog-nav-links">
+                    <a href="/">Forside</a>
+                    <a href="/blog/">Blog</a>
+                </div>
+            </div>
+            <a href="https://cal.com/voxa/voxa-intro" class="blog-nav-cta" target="_blank" rel="noopener">Book møde</a>
+        </div>
+    </nav>
+
+    <!-- Blog Listing -->
+    <main class="blog-listing">
+        <header class="blog-listing-header">
             <h1>Voxa Blog</h1>
-            <p class="lead">Praktisk viden om AI til danske virksomheder</p>
+            <p>Praktisk viden om AI, automation og digital transformation for danske virksomheder</p>
         </header>
         
-        <section class="blog-list">
-            <article class="blog-preview">
+        <div class="blog-grid">
+            <article class="blog-card">
+                <span class="blog-card-category">Kundeservice</span>
                 <h2><a href="ai-kundeservice-2026.html">Sådan automatiserer du kundeservice med AI i 2026</a></h2>
-                <p class="meta">18. juli 2026</p>
+                <p class="blog-card-meta">18. juli 2026</p>
                 <p>Lær hvordan din virksomhed kan bruge AI til at automatisere kundeservice, spare tid og forbedre kundeoplevelsen. Inklusiv case fra VVS-virksomhed.</p>
-                <a href="ai-kundeservice-2026.html">Læs mere →</a>
+                <a href="ai-kundeservice-2026.html" class="blog-card-readmore">Læs mere →</a>
             </article>
             
-            <article class="blog-preview">
+            <article class="blog-card">
+                <span class="blog-card-category">AI Guide</span>
                 <h2><a href="ai-medarbejdere-vs-chatbots.html">AI-medarbejdere vs chatbots: Hvad er forskellen?</a></h2>
-                <p class="meta">18. juli 2026</p>
+                <p class="blog-card-meta">18. juli 2026</p>
                 <p>Forstå forskellen mellem traditionelle chatbots og moderne AI-medarbejdere. Lær hvilket der passer bedst til din virksomhed.</p>
-                <a href="ai-medarbejdere-vs-chatbots.html">Læs mere →</a>
+                <a href="ai-medarbejdere-vs-chatbots.html" class="blog-card-readmore">Læs mere →</a>
             </article>
             
-            <article class="blog-preview">
+            <article class="blog-card">
+                <span class="blog-card-category">Produktivitet</span>
                 <h2><a href="5-maader-ai-sparer-tid.html">5 måder AI kan spare din virksomhed for 20 timer om ugen</a></h2>
-                <p class="meta">18. juli 2026</p>
+                <p class="blog-card-meta">18. juli 2026</p>
                 <p>Opdag 5 konkrete måder AI kan automatisere dit arbejde og spare dig for 20+ timer hver uge. Praktiske eksempler fra danske virksomheder.</p>
-                <a href="5-maader-ai-sparer-tid.html">Læs mere →</a>
+                <a href="5-maader-ai-sparer-tid.html" class="blog-card-readmore">Læs mere →</a>
             </article>
             
-            <article class="blog-preview">
+            <article class="blog-card">
+                <span class="blog-card-category">GDPR</span>
                 <h2><a href="gdpr-ai-datasikkerhed.html">GDPR og AI: Sådan holder du dine data sikre</a></h2>
-                <p class="meta">18. juli 2026</p>
+                <p class="blog-card-meta">18. juli 2026</p>
                 <p>Alt du skal vide om GDPR-compliance når du bruger AI i din virksomhed. Praktisk guide med 5 regler for sikker AI.</p>
-                <a href="gdpr-ai-datasikkerhed.html">Læs mere →</a>
+                <a href="gdpr-ai-datasikkerhed.html" class="blog-card-readmore">Læs mere →</a>
             </article>
-        </section>
+            
+            <article class="blog-card">
+                <span class="blog-card-category">VVS</span>
+                <h2><a href="ai-for-vvs-virksomheder.html">AI for VVS-virksomheder: Komplet guide 2026</a></h2>
+                <p class="blog-card-meta">18. juli 2026</p>
+                <p>Alt du skal vide om at bruge AI i din VVS-virksomhed. Automatér booking, kundeservice og administration. Praktisk guide med cases.</p>
+                <a href="ai-for-vvs-virksomheder.html" class="blog-card-readmore">Læs mere →</a>
+            </article>
+            
+            <article class="blog-card">
+                <span class="blog-card-category">SEO</span>
+                <h2><a href="soegemaskineoptimering-for-danske-virksomheder.html">Søgemaskineoptimering for Danske Virksomheder i 2026</a></h2>
+                <p class="blog-card-meta">18. juli 2026</p>
+                <p>Komplet guide til SEO for danske virksomheder. Lær hvordan du rangerer højere på Google med praktiske tips og strategier.</p>
+                <a href="soegemaskineoptimering-for-danske-virksomheder.html" class="blog-card-readmore">Læs mere →</a>
+            </article>
+        </div>
         
-        <section class="cta">
+        <section class="blog-listing-cta">
             <h2>Vil du høre mere?</h2>
-            <p>Book et gratis rådgivningsmøde og få konkrete ideer til din virksomhed.</p>
-            <a href="https://cal.com/voxa/voxa-intro" class="btn btn-primary">Book møde →</a>
+            <p>Book et gratis rådgivningsmøde og få konkrete ideer til hvordan AI kan hjælpe din virksomhed.</p>
+            <a href="https://cal.com/voxa/voxa-intro" class="btn" target="_blank" rel="noopener">Book møde →</a>
         </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="blog-footer">
+        <div class="blog-footer-content">
+            <nav class="blog-footer-nav">
+                <a href="/">Forside</a>
+                <a href="/blog/">Blog</a>
+                <a href="mailto:albert@voxa.dk">Kontakt</a>
+            </nav>
+            <p>&copy; 2026 Voxa. Alle rettigheder forbeholdes.</p>
+        </div>
+    </footer>
 </body>
 </html>
